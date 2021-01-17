@@ -43,32 +43,6 @@ console.log(getCandidateById("5e216bc9a6059760578aefa4"))
 
 
 // //4 task ЕЩЕ НЕ ДОДЕЛАНО !
-//
-// const getEyeColorMap = () => {
-//     let colors = []
-//     let colorMap = new Map();
-//     for (let element of candidateArr) {
-//         if (!colors.includes(element.eyeColor)) {
-//             colors.push(element.eyeColor)
-//         }
-//         for (let i = 0; i < candidateArr.length; i++) {
-//             if (candidateArr[i].eyeColor === element.eyeColor) {
-//                 let col = []
-//                 col.push(candidateArr[i])
-//                 colorMap.set(element.eyeColor, col)
-//             }
-//         }
-//         // for (let color of colors) {
-//         //     if ( color === element.eyeColor ) {
-//         //         let col = []
-//         //         col.push(element)
-//         //         colorMap.set(color, col)
-//         //     }
-//         // }
-//     }
-//     return colorMap
-// }
-//
-// console.log(getEyeColorMap())
+
 
 
