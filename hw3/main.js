@@ -86,18 +86,18 @@ console.log(getRandomEmployee(emplyeeConstructArr))
 
 
 
-const employeeObj = new EmployeeTemplate(emplyeeArr[1]);
+// const employeeObj = new EmployeeTemplate(emplyeeArr[1]);
 
-Object.defineProperty(employeeObj, 'fullInfo', {
-    get: function() {
-        let tmp = []
-        for (const [key, value] of Object.entries(this)) {
-            tmp.push(`${key} - ${value}`);
-        }
-        return  tmp.join(", ")
-    }
-})
+// Object.defineProperty(employeeObj, 'fullInfo', {
+//     get: function() {
+//         let tmp = []
+//         for (const [key, value] of Object.entries(this)) {
+//             tmp.push(`${key} - ${value}`);
+//         }
+//         return  tmp.join(", ")
+//     }
+// })
 
-console.log(employeeObj.fullInfo);
+// console.log(employeeObj.fullInfo);
 
 
